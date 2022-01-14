@@ -49,20 +49,6 @@ If the MySQL container is still running, shutdown the container:
 $ docker-compose down
 ```
 
-
-
-To run the test(s) in VSCode, click on the play icon in the `CustomerIntegrationTest.java` file:
-
-![](images/test-1.png)
-
-If the tests are successful, you see similar output:
-
-![](images/test-3.png)
-
-To re-run the test, click on the circle checkmark:
-
-![](images/test-2.png)
-
 To speed up the tests (by reducing the MySQL container startup time), you can configure the `<homedir>/.testcontainers.properties` file to reuse the current container by including the following line:
 
 ```
@@ -78,6 +64,19 @@ docker.client.strategy=org.testcontainers.dockerclient.UnixSocketClientProviderS
 testcontainers.reuse.enable=true
 ```
 
+To run the test(s) in VSCode, click on the play icon in the `CustomerIntegrationTest.java` file:
+
+![](images/test-1.png)
+
+If the tests are successful, you see similar output:
+
+![](images/test-3.png)
+
+To re-run the test, click on the circle checkmark:
+
+![](images/test-2.png)
+
+Due to the `reuse` option, you should notice a significant reduction in the time to complete the tests. 
 
 
 

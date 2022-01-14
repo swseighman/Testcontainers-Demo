@@ -2,7 +2,7 @@
 
 ### Credits
 
-This lab is based on a [session](https://www.youtube.com/watch?v=v3eQCIWLYOw&t=2903s) presented by Marco Behler from JetBrains.
+The following lab is based on a [session](https://www.youtube.com/watch?v=v3eQCIWLYOw&t=2903s) presented by Marco Behler from JetBrains.
 
 
 ### Building and Running the Sample Application
